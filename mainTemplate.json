@@ -25,7 +25,7 @@
     }
   },
   "variables": {
-    "locustImage": "locustio/locust:1.1.1",
+    "locustImage": "locustio/locust:2.20.1",
     "location": "[parameters('location')]",
     "prefix": "[uniqueString(resourceGroup().id)]",
     "azureCliImage": "mcr.microsoft.com/azure-cli",
